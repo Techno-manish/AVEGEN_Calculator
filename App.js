@@ -1,3 +1,4 @@
+// Updated Code
 import React, { useState } from "react";
 import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 
@@ -56,6 +57,7 @@ export default function App() {
       </View>
       <View style={styles.buttonContainer}>
         <View style={styles.row}>
+          {/* Number and operator buttons */}
           <TouchableOpacity
             style={styles.button}
             onPress={() => handleNumberInput(7)}
@@ -162,6 +164,7 @@ export default function App() {
           <Text style={styles.clearButtonText}>C</Text>
         </TouchableOpacity>
       </View>
+      <Text style={styles.footerText}>Calc by Manish</Text>
     </View>
   );
 }
@@ -227,7 +230,7 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#ff9500",
+    backgroundColor: "green",
     elevation: 3,
   },
   equalButtonText: {
@@ -246,5 +249,11 @@ const styles = StyleSheet.create({
   clearButtonText: {
     fontSize: 24,
     color: "#333",
+  },
+  footerText: {
+    fontSize: 16,
+    color: "#333",
+    marginTop: 20,
+    textAlign: "center",
   },
 });
