@@ -17,5 +17,16 @@
   "devDependencies": {
     "@babel/core": "^7.20.0"
   },
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techno-manish/AVEGEN_Calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Techno-manish/AVEGEN_Calculator/issues"
+  },
+  "homepage": "https://github.com/Techno-manish/AVEGEN_Calculator#readme",
+  "description": ""
 }
